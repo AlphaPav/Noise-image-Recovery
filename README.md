@@ -15,7 +15,7 @@ CNN encoder and decoder for noise image recovery in Pytorch
               mask = np.zeros(width)
               mask[:real_num] = 1
               random.shuffle(mask)
-              for j in range(0,width): # 列
+              for j in range(0,width): # col
                       img[i][j][k] *=mask[j]
   ```
 
@@ -35,7 +35,7 @@ Noise Image - Recover Image  - Original Image （epoch40）：
 
 ![epoch10_step2400_noise](./output/gray80/epoch10_step2400_noise.png)![epoch10_step2400_output](./output/gray80/epoch10_step2400_output.png)![epoch10_step2400_true](./output/gray80/epoch10_step2400_true.png)
 
-![epoch10_step2300_noise](.output/gray80/epoch10_step2300_noise.png)![epoch10_step2300_output](./output/gray80/epoch10_step2300_output.png)![epoch10_step2300_true](./output/gray80/epoch10_step2300_true.png)
+![epoch10_step2300_noise](./output/gray80/epoch10_step2300_noise.png)![epoch10_step2300_output](./output/gray80/epoch10_step2300_output.png)![epoch10_step2300_true](./output/gray80/epoch10_step2300_true.png)
 
 - 40% noise
 
@@ -56,19 +56,19 @@ Noise Image - Recover Image  - Original Image （epoch40）：
 ### A（80% noise）：
 
 <figure class="half">
-<img src="A.png" width="250"/><img src="./output/gray80/test_39_output.png" width="250"/>
+<img src="A.png" width="200"/><img src="./output/gray80/test_39_output.png" width="200"/>
 </figure>
 
 - Change process：
 
 <figure class="half">
-<img src="./output/gray80/test_0_output.png" width="250"/><img src="./output/gray80/test_5_output.png" width="250"/>
+<img src="./output/gray80/test_0_output.png" width="200"/><img src="./output/gray80/test_5_output.png" width="200"/>
 </figure>
 
 Epoch = 1 -> Epoch = 6
 
 <figure class="half">
-<img src="./output/gray80/test_10_output.png" width="250"/><img src="./output/gray80/test_39_output.png" width="250"/>
+<img src="./output/gray80/test_10_output.png" width="200"/><img src="./output/gray80/test_39_output.png" width="200"/>
 </figure>
 
 Epoch = 11 -> Epoch = 40
@@ -77,12 +77,12 @@ Epoch = 11 -> Epoch = 40
 ### B（40% noise）：
 
 <figure class="half">
-<img src="B.png" width="250"/><img src="./output/color40/test_output.png" width="250"/>
+<img src="B.png" width="200"/><img src="./output/color40/test_output.png" width="200"/>
 </figure>
 
 ### C（60% noise）的恢复结果：
 
 <figure class="half">
-<img src="C.png" width="250"/><img src="./output/color60/test_output.png" width="250"/>
+<img src="C.png" width="200"/><img src="./output/color60/test_output.png" width="200"/>
 </figure>
 
