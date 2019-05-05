@@ -56,19 +56,20 @@ Noise Image - Recover Image  - Original Image （epoch40）：
 ### A（80% noise）：
 
 <figure class="half">
-<img src="A.png" width="200"/><img src="./output/gray80/test_39_output.png" width="200"/>
+<img src="A.png" width="200">
+  <img src="./output/gray80/test_39_output.png" width="200">
 </figure>
 
 - Change process：
 
 <figure class="half">
-<img src="./output/gray80/test_0_output.png" width="200"/><img src="./output/gray80/test_5_output.png" width="200"/>
+<img src="./output/gray80/test_0_output.png" width="200"><img src="./output/gray80/test_5_output.png" width="200">
 </figure>
 
 Epoch = 1 -> Epoch = 6
 
 <figure class="half">
-<img src="./output/gray80/test_10_output.png" width="200"/><img src="./output/gray80/test_39_output.png" width="200"/>
+<img src="./output/gray80/test_10_output.png" width="200"><img src="./output/gray80/test_39_output.png" width="200">
 </figure>
 
 Epoch = 11 -> Epoch = 40
@@ -77,12 +78,12 @@ Epoch = 11 -> Epoch = 40
 ### B（40% noise）：
 
 <figure class="half">
-<img src="B.png" width="200"/><img src="./output/color40/test_output.png" width="200"/>
+<img src="B.png" width="200"><img src="./output/color40/test_output.png" width="200">
 </figure>
 
 ### C（60% noise）的恢复结果：
 
 <figure class="half">
-<img src="C.png" width="200"/><img src="./output/color60/test_output.png" width="200"/>
+<img src="C.png" width="200"><img src="./output/color60/test_output.png" width="200">
 </figure>
 
