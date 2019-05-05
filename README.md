@@ -1,7 +1,7 @@
 
 # Noise-image-Recovery
-CNN encoder and decoder for noise image recovery in Pytorch
-- model 
+noise image recovery in Pytorch
+- `model: CNN encoder and decoder`
   ![modelimage](./modelimage.png)
 
 - `generate noise`
@@ -53,23 +53,9 @@ Noise Image - Recover Image  - Original Image （epoch40）：
 ### A（80% noise）：
 
 <figure class="half">
-  <img src="A.png" >
-  <img src="./output/gray80/test_39_output.png" >
+  <img src="A.png" width="200">
+  <img src="./output/gray80/test_39_output.png" width="200">
 </figure>
-
-- Change process：
-
-<figure class="half">
-<img src="./output/gray80/test_0_output.png" width="200"><img src="./output/gray80/test_5_output.png" width="200">
-</figure>
-
-Epoch = 1 -> Epoch = 6
-
-<figure class="half">
-<img src="./output/gray80/test_10_output.png" width="200"><img src="./output/gray80/test_39_output.png" width="200">
-</figure>
-
-Epoch = 11 -> Epoch = 40
 
 
 ### B（40% noise）：
